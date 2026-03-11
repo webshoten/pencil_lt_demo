@@ -1,0 +1,1104 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "G0LWq",
+      "x": 950,
+      "y": 0,
+      "name": "A. Clean & Modern",
+      "width": 360,
+      "height": 280,
+      "fill": "#FFFFFF",
+      "cornerRadius": 12,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#E5E5E5"
+      },
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 24,
+      "children": [
+        {
+          "type": "text",
+          "id": "za5hm",
+          "name": "header1",
+          "fill": "#1A1A1A",
+          "content": "A. Clean & Modern",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "nP9b4",
+          "name": "desc1",
+          "fill": "#666666",
+          "textGrowth": "fixed-width",
+          "width": 312,
+          "content": "白ベース・すっきり整理されたUI。信頼感と使いやすさを両立。",
+          "lineHeight": 1.5,
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "nnC01",
+          "name": "colorRow1",
+          "height": 40,
+          "gap": 8,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 6,
+              "id": "dofYi",
+              "name": "c1a",
+              "fill": "#FFFFFF",
+              "width": 40,
+              "height": 40,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E5E5E5"
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 6,
+              "id": "71spY",
+              "name": "c1b",
+              "fill": "#0D6E6E",
+              "width": 40,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 6,
+              "id": "uY3fs",
+              "name": "c1c",
+              "fill": "#F5F5F5",
+              "width": 40,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 6,
+              "id": "wmwLH",
+              "name": "c1d",
+              "fill": "#1A1A1A",
+              "width": 40,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 6,
+              "id": "T1QWu",
+              "name": "c1e",
+              "fill": "#E07B54",
+              "width": 40,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ys4Df",
+          "name": "sample1",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#F8F8F8",
+          "cornerRadius": 8,
+          "gap": 12,
+          "padding": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 6,
+              "id": "erITX",
+              "name": "s1icon",
+              "fill": "#0D6E6E",
+              "width": 32,
+              "height": 32
+            },
+            {
+              "type": "frame",
+              "id": "NrGmT",
+              "name": "s1text",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p8fTl",
+                  "name": "s1t1",
+                  "fill": "#1A1A1A",
+                  "content": "渋谷区 3LDK マンション",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "mmPc7",
+                  "name": "s1t2",
+                  "fill": "#0D6E6E",
+                  "content": "¥45,000,000",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pI1xD",
+      "x": 0,
+      "y": 650,
+      "name": "Map Real Estate App",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "#FAFAFA",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "khMj1",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E5E5E5"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "I3MPW",
+              "name": "logo",
+              "fill": "#0D6E6E",
+              "content": "MapEstate",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "llzNm",
+              "name": "headerRight",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ANVrz",
+                  "name": "searchBox",
+                  "width": 280,
+                  "height": 36,
+                  "fill": "#F5F5F5",
+                  "cornerRadius": 8,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hJOCX",
+                      "name": "searchIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#AAAAAA"
+                    },
+                    {
+                      "type": "text",
+                      "id": "07gq3",
+                      "name": "searchText",
+                      "fill": "#AAAAAA",
+                      "content": "エリア・駅名で検索...",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b7Y2N",
+          "name": "Body",
+          "width": "fill_container",
+          "height": "fill_container",
+          "children": [
+            {
+              "type": "frame",
+              "id": "KYjdl",
+              "name": "Map Area",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1773206535785.png",
+                "mode": "fill"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lu6p6",
+                  "x": 20,
+                  "y": 20,
+                  "name": "mapLabel",
+                  "fill": "#888888",
+                  "content": "Leaflet Map",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "jjOmY",
+                  "x": 20,
+                  "y": 60,
+                  "name": "Draw Tool",
+                  "width": 40,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000015",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 8
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OETj1",
+                      "name": "toolLasso",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#0D6E6E10",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Xn8NR",
+                          "name": "toolLassoIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "lasso",
+                          "iconFontFamily": "lucide",
+                          "fill": "#0D6E6E"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6B31X",
+                      "name": "toolHand",
+                      "width": 40,
+                      "height": 40,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "u8Nw9",
+                          "name": "toolHandIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "hand",
+                          "iconFontFamily": "lucide",
+                          "fill": "#666666"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YwjS7",
+                      "name": "toolZoom",
+                      "width": 40,
+                      "height": 40,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "rjyHd",
+                          "name": "toolZoomIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "zoom-in",
+                          "iconFontFamily": "lucide",
+                          "fill": "#666666"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "path",
+                  "id": "Ae5uD",
+                  "x": 180,
+                  "y": 100,
+                  "name": "Freehand Selection",
+                  "geometry": "M60 20c30-15 100-20 190-10 90 10 170 5 210 30 40 25 50 80 40 160-10 80-20 140-60 170-40 30-120 25-200 10-80-15-160-10-200-40-40-30-35-100-25-160 10-60 15-145 45-160z",
+                  "fill": "#0D6E6E18",
+                  "width": 520,
+                  "height": 400,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 2.5,
+                    "join": "round",
+                    "cap": "round",
+                    "fill": "#0D6E6E"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KF1vn",
+              "name": "Property Panel",
+              "clip": true,
+              "width": 420,
+              "height": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "left": 1
+                },
+                "fill": "#E5E5E5"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xw0tM",
+                  "name": "Panel Header",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#E5E5E5"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    24,
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EKPJI",
+                      "name": "panelTitle",
+                      "fill": "#1A1A1A",
+                      "content": "物件一覧",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4OHsZ",
+                      "name": "panelCount",
+                      "fill": "#888888",
+                      "content": "選択エリア内: 12件",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pG8AD",
+                      "name": "filterRow",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "90g8I",
+                          "name": "filterAll",
+                          "height": 32,
+                          "fill": "#0D6E6E",
+                          "cornerRadius": 16,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iyHPm",
+                              "name": "filterAllText",
+                              "fill": "#FFFFFF",
+                              "content": "すべて",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hQdhh",
+                          "name": "filterSale",
+                          "height": 32,
+                          "fill": "#F5F5F5",
+                          "cornerRadius": 16,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "agAWr",
+                              "name": "filterSaleText",
+                              "fill": "#666666",
+                              "content": "売買",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZzWEN",
+                          "name": "filterRent",
+                          "height": 32,
+                          "fill": "#F5F5F5",
+                          "cornerRadius": 16,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aybFo",
+                              "name": "filterRentText",
+                              "fill": "#666666",
+                              "content": "賃貸",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d6EKX",
+                  "name": "Property List",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ynidh",
+                      "name": "Property Card 1",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "u9zU2",
+                          "name": "Thumbnail",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "charlespostiaux",
+                            "link": "https://unsplash.com/@charlespostiaux",
+                            "author": "Charles Postiaux"
+                          },
+                          "width": 120,
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1543402648-48544bb3c701?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDY1NjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "d6cl6",
+                          "name": "info1",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Mzlhl",
+                              "name": "price1",
+                              "fill": "#0D6E6E",
+                              "content": "¥45,000,000",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Qqpj5",
+                              "name": "title1",
+                              "fill": "#1A1A1A",
+                              "content": "渋谷区神南 3LDK マンション",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tcjQ3",
+                              "name": "meta1",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "BCtg0",
+                                  "name": "m1a",
+                                  "fill": "#888888",
+                                  "content": "72.5㎡",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "vK1tJ",
+                                  "name": "m1b",
+                                  "fill": "#888888",
+                                  "content": "築8年",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "qNFzW",
+                                  "name": "m1c",
+                                  "fill": "#888888",
+                                  "content": "駅徒歩5分",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wrQak",
+                              "name": "tag1",
+                              "height": 20,
+                              "fill": "#E07B5420",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "7rKsg",
+                                  "name": "tag1t",
+                                  "fill": "#E07B54",
+                                  "content": "売買",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7KC1R",
+                      "name": "Property Card 2",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yH8mX",
+                          "name": "Thumbnail",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "oskarssylwan",
+                            "link": "https://unsplash.com/@oskarssylwan",
+                            "author": "Oskars Sylwan"
+                          },
+                          "width": 120,
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1526489057488-dd82a668406f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDY1NjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ur1GT",
+                          "name": "info2",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "E7DJT",
+                              "name": "price2",
+                              "fill": "#0D6E6E",
+                              "content": "¥180,000/月",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "3o49V",
+                              "name": "title2",
+                              "fill": "#1A1A1A",
+                              "content": "目黒区中目黒 1LDK アパート",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lVOlN",
+                              "name": "meta2",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "n7Y38",
+                                  "name": "m2a",
+                                  "fill": "#888888",
+                                  "content": "38.2㎡",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "9yIOw",
+                                  "name": "m2b",
+                                  "fill": "#888888",
+                                  "content": "築3年",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3epCF",
+                                  "name": "m2c",
+                                  "fill": "#888888",
+                                  "content": "駅徒歩2分",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qef3a",
+                              "name": "tag2",
+                              "height": 20,
+                              "fill": "#0D6E6E15",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "h9h3W",
+                                  "name": "tag2t",
+                                  "fill": "#0D6E6E",
+                                  "content": "賃貸",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XWgP1",
+                      "name": "Property Card 3",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Bu9Gu",
+                          "name": "Thumbnail",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "yungchi1104",
+                            "link": "https://unsplash.com/@yungchi1104",
+                            "author": "kiki"
+                          },
+                          "width": 120,
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1709455237000-678076b41f64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDY1Nzh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wwTxW",
+                          "name": "info3",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "71B9E",
+                              "name": "price3",
+                              "fill": "#0D6E6E",
+                              "content": "¥32,800,000",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GBOsS",
+                              "name": "title3",
+                              "fill": "#1A1A1A",
+                              "content": "世田谷区三軒茶屋 2LDK マンション",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KuiPp",
+                              "name": "meta3",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "1ZIRn",
+                                  "name": "m3a",
+                                  "fill": "#888888",
+                                  "content": "55.8㎡",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ixxU4",
+                                  "name": "m3b",
+                                  "fill": "#888888",
+                                  "content": "築12年",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "FjMzJ",
+                                  "name": "m3c",
+                                  "fill": "#888888",
+                                  "content": "駅徒歩8分",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dnRPp",
+                              "name": "tag3",
+                              "height": 20,
+                              "fill": "#E07B5420",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "m6ZrF",
+                                  "name": "tag3t",
+                                  "fill": "#E07B54",
+                                  "content": "売買",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DOQJV",
+                      "name": "Property Card 4",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E5E5E5"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UCF3i",
+                          "name": "Thumbnail",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "jdavydko",
+                            "link": "https://unsplash.com/@jdavydko",
+                            "author": "Roman Davydko"
+                          },
+                          "width": 120,
+                          "height": "fill_container",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1585246430623-8532985e7bf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDY1Nzl8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8TO76",
+                          "name": "info4",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": 12,
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "cBPHQ",
+                              "name": "price4",
+                              "fill": "#0D6E6E",
+                              "content": "¥135,000/月",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "sX9rK",
+                              "name": "title4",
+                              "fill": "#1A1A1A",
+                              "content": "新宿区西新宿 1K マンション",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ziPJ1",
+                              "name": "meta4",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "f3scj",
+                                  "name": "m4a",
+                                  "fill": "#888888",
+                                  "content": "25.3㎡",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ubqbS",
+                                  "name": "m4b",
+                                  "fill": "#888888",
+                                  "content": "築5年",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "4IC7U",
+                                  "name": "m4c",
+                                  "fill": "#888888",
+                                  "content": "駅徒歩3分",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KfZdi",
+                              "name": "tag4",
+                              "height": 20,
+                              "fill": "#0D6E6E15",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SRPVF",
+                                  "name": "tag4t",
+                                  "fill": "#0D6E6E",
+                                  "content": "賃貸",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
